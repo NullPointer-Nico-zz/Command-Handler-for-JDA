@@ -1,0 +1,4 @@
+target/
+dependency-reduces-pom.xml
+.idea/
+Command Handler for JDA.iml
