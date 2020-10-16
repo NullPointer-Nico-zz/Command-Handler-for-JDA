@@ -43,7 +43,7 @@ class TestCommand implements ICommand
 {
     @Override
     @RegisterCommand(aliases = "test")
-    public void onCommand(Message message) {
+    public void onCommand(Message msg, MessageChannel channel, String[] args) {
         MessageChannel channel = msg.getChannel();
         channel.send("Test").queue();
     }
